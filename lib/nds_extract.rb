@@ -4,14 +4,15 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 
 def directors_totals(nds)
-       [ 
+       
   directors_totals = {
-  "1st Director's Name"=> [1234567890],
-  "2nd Director's Name"=> [1234577890],
-  "3rd Director's Name"=>[1234709136],
+  "jean Pierre"=> [1234567890],
+  "Alice au  pays"=> [1234577890],
+  "Lapin fou "=>[1234709136], 
+  
   
 }
-  p directors_database
+p directors_database
   # I pretty print directors file 
   # I created hash
   #print to see what i 'm working with'
