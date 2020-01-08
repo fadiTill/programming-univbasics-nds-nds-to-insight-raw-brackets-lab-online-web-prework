@@ -39,6 +39,7 @@ while row_index < vm.length do
     inner_len = vm[row_index][column_index].length
     inner_index = 0
     while inner_index < inner_len do
+      
   # Be sure to return the result at the end!
   nil
 end
