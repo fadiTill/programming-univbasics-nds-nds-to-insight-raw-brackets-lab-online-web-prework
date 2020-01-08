@@ -33,13 +33,23 @@ p directors_database
   #
   grand_total = 0
 row_index = 0
-while row_index < vm.length do
+while row_index < directors_database.length do
   column_index = 0
   while column_index < vm[row_index].length do
     inner_len = vm[row_index][column_index].length
     inner_index = 0
     while inner_index < inner_len do
-      
+    #total directors 
+   
+    grand_total += vm[row_index][column_index][inner_index][:price]
+      inner_index += 1
+    end
+    column_index += 1
+  end
+  row_index += 1
+end
+ 
+p grand_tota  
   # Be sure to return the result at the end!
   nil
 end
