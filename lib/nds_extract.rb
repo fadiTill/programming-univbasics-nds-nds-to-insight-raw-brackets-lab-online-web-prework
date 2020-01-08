@@ -33,7 +33,7 @@ p directors_database
   #
   grand_total = 0
 row_index = 0
-while row_index < directors_database.length do
+while row_index < directors_to.length do
   column_index = 0
   while column_index < vm[row_index].length do
     inner_len = vm[row_index][column_index].length
