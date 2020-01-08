@@ -6,10 +6,10 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 def directors_totals(nds)
        [ 
   directors_totals = {
-  "1st Director's Name"=>1234567890,
-  "2nd Director's Name"=>1234577890,
-  "3rd Director's Name"=>1234709136,
-  ...
+  "1st Director's Name"=> [1234567890],
+  "2nd Director's Name"=> [1234577890],
+  "3rd Director's Name"=>[1234709136],
+  
 }
   p directors_database
   # I pretty print directors file 
