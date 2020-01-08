@@ -5,6 +5,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 def directors_totals(nds)
   [ ]
+  p 'directors_database'
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
